@@ -1,0 +1,12 @@
+Package: my-thing-python
+Version: 1.0
+Description: python scripts for MyCompany
+Section: extras
+Priority: optional
+Maintainer: John
+License: CLOSED
+OE: my-thing-python
+Homepage: unknown
+Depends: python python-ditutils python-pyserial python-curses python-mmap 
+Source N/A
+
