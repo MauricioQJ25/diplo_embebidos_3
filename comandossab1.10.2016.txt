@@ -1,0 +1,1000 @@
+   27  l
+   28  clear
+   29  ls
+   30  cd 09.09/
+   31  ls
+   32  cp -R Mau_EjercicioMake/ calculadora
+   33  ls
+   34  Mau_EjercicioMake/
+   35  cd Mau_EjercicioMake/
+   36  ls
+   37  git rm *~ 
+   38  git rm *.o
+   39  clear
+   40  ls
+   41  git rm calculadora_pila
+   42  ls
+   43  git status
+   44  clear
+   45  ls
+   46  git commit -m "borre los archivos innecesarios"
+   47  git status
+   48  clear
+   49  cd ..
+   50  ls
+   51  rm -R calculadora/
+   52  ls
+   53  cd Mau_EjercicioMake/
+   54  ls
+   55  git status
+   56  ls
+   57  clear
+   58  ls
+   59  cd ..
+   60  ls
+   61  cd  Mau_EjercicioMake/
+   62  ls
+   63  cd ..
+   64  ls
+   65  cd ..
+   66  lx
+   67  ls
+   68  mv scrip.sh ~/Escritorio/
+   69  cd previo/
+   70  ls
+   71  cd ..
+   72  git status
+   73  cd ..
+   74  ls
+   75  cd practicas/
+   76  ls
+   77  ls -a
+   78  rm .scrip.swp 
+   79  git status
+   80  git push
+   81  clear
+   82  dch --help
+   83  dch -help
+   84  dch --help
+   85  clear
+   86  dch --help
+   87  dch
+   88  ls
+   89  clear
+   90  ls
+   91  git branch MibranchLocal
+   92  git branch
+   93  git checkout MibranchLocal
+   94  ls
+   95  clear
+   96  ls
+   97  cd 09.09/
+   98  ls
+   99  cd Mau_EjercicioMake/
+  100  ls
+  101   vi debianrules
+  102  clear
+  103  ls
+  104  clear
+  105  echo /
+  106  echo hola
+  107  echohola
+  108  echo hola
+  109  clear
+  110  /
+  111  cd /
+  112  cd proc
+  113  ls
+  114  clear
+  115  grep thread
+  116  clear
+  117  ls
+  118  clear
+  119  cd /
+  120  l
+  121  ls
+  122  cd sys
+  123  ls
+  124  cd ..
+  125  ls
+  126  cd proc
+  127  ls
+  128  clear
+  129  ls
+  130  cleasr
+  131  cl
+  132  clear
+  133  alias=cl clear
+  134  dl
+  135  cl
+  136  alias=cl 'clear'
+  137  asdfa
+  138  cl
+  139  clear
+  140  ls
+  141  cat interrupts 
+  142  clear
+  143  ls
+  144  cat devices 
+  145  cat dma 
+  146  clear
+  147  ls
+  148  cat filesystems 
+  149  cat cpuinfo 
+  150  cat cpuinfo | less
+  151  cat cpuinfo
+  152  clear 
+  153  cat meminfo 
+  154  cat meminfo | grep MemFree
+  155  cat meminfo | grep -e MemFree
+  156  cat meminfo | grep -e "MemFree"
+  157  cat meminfo | grep -e "*ree"
+  158  cat meminfo | grep -e *ree
+  159  cat meminfo | grep  *ree
+  160  cat meminfo | grep " *ree"
+  161  cat meminfo | grep "*ree"
+  162  cat meminfo | grep " *ree"
+  163  cat meminfo | grep ".*ree"
+  164  cat meminfo | grep " *ree"
+  165  cat meminfo | grep ".*ree"
+  166  clear
+  167  ls
+  168  cat meminfo | grep ".*ree"
+  169  cat sys
+  170  cd sys
+  171  ls
+  172  cd /sys/
+  173  ls
+  174  cleasr
+  175  clesar
+  176  clear
+  177  ls
+  178  ls -l
+  179  cd block
+  180  ls
+  181  cd ..
+  182  cd bu
+  183  cd bus
+  184  ls
+  185  cd ..
+  186  cleasr
+  187  clear
+  188  ls
+  189  l
+  190  ls
+  191  screen -R
+  192  man screen
+  193  help screen
+  194  man scrnn
+  195  man screen
+  196  cleasr
+  197  ls
+  198  cleasr
+  199  clea
+  200  cl
+  201  clesar
+  202  clear
+  203  l
+  204  ls
+  205  cleasr
+  206  clear
+  207  ls
+  208  kill -l
+  209  LS
+  210  ls
+  211  clesar
+  212  clear
+  213  ls
+  214  sys kernel/
+  215  ls
+  216  cd kernel/
+  217  ls
+  218  clesar
+  219  clear
+  220  ls
+  221  cd ..
+  222  ls
+  223  clear
+  224  ls
+  225  ls kernel/
+  226  cd ..
+  227  ls
+  228  cd sys
+  229  ls
+  230  clear
+  231  ls
+  232  cd module/
+  233  ls
+  234  cd ..
+  235  ls
+  236  clesar
+  237  clear
+  238  ls
+  239  cd module/
+  240  ls
+  241  cd ..
+  242  ls
+  243  clear
+  244  ls
+  245  ls -la
+  246  cd dev/block/
+  247  ls -la
+  248  fdisk -l
+  249  fdisk -h
+  250  fdisk -H
+  251  fdisk -b
+  252  ls
+  253  clear
+  254  cd ..
+  255  ls
+  256  cd ..
+  257  ls
+  258  cd ..
+  259  ls
+  260  cd var/
+  261  ls
+  262  cd /sys/dev/block/
+  263  ls
+  264  su 
+  265  su
+  266  su 
+  267  su
+  268  cd /etc/
+  269  ls
+  270  clear
+  271  ls -l | less
+  272  find / -iname pepito
+  273  jobs
+  274  ls
+  275  cd /
+  276  cd dev
+  277  ls
+  278  cd ..
+  279  ls
+  280  cd var
+  281  ls
+  282  cd ..
+  283  ls
+  284  cd dev
+  285  ls
+  286  cd disk
+  287  ls
+  288  cd ..
+  289  ls
+  290  cd ..
+  291  ls
+  292  cd proc
+  293  ls
+  294  cd ..
+  295  cd dev
+  296  ls
+  297  cd disk
+  298  ls
+  299  cd ..
+  300  cd /
+  301  ls
+  302  cd  var
+  303  ls
+  304  cd ..
+  305  cd sys
+  306  ls
+  307  cd power
+  308  ls
+  309  cd state
+  310  pwd
+  311  ls
+  312  cd /home/
+  313  l
+  314  ls
+  315  cd diplomado4/Escritorio/
+  316  clesar
+  317  clera
+  318  clear
+  319  ls
+  320  chmod +x Ejercicio_02.sh 
+  321  ls
+  322  ./Ejercicio_02.sh 
+  323  cd /dev/disk
+  324  ls
+  325  cd /sys/power/
+  326  ls
+  327  cat state 
+  328  ./Ejercicio_02.sh 
+  329  ./home/diplomado4/Escritorio/Ejercicio_02.sh
+  330  bash /home/diplomado4/Escritorio/Ejercicio_02.sh
+  331  cd /dev/disk/
+  332  ls
+  333  cd ..
+  334  ls
+  335  cat random
+  336  cd input
+  337  ls
+  338  clear
+  339  ls
+  340  cd ..
+  341  ls
+  342  cd ..
+  343  ls
+  344  cd dev
+  345  ls
+  346  clesar
+  347  clear
+  348  clear 
+  349  ls -l
+  350  clesar
+  351  clear -l
+  352  ls
+  353  cd block
+  354  ls
+  355  cd ..
+  356  ls
+  357  cd mapper
+  358  ls
+  359  cd ..
+  360  ls
+  361  clear
+  362  ls
+  363  cd ..
+  364  cd /home/diplomado4/Escritorio/
+  365  ls
+  366  ./Ejercicio_02.sh
+  367  cd 
+  368  cd Do
+  369  cd Documentos/
+  370  ls
+  371  cd mauGit/
+  372  git status
+  373  ls
+  374  cd diplo_embebidos_3/
+  375  ls
+  376  clear
+  377  ls
+  378  git status
+  379  git push
+  380  cd Es
+  381  cd 
+  382  cd Escritorio/
+  383  ls
+  384  ./Ejercicio_02.sh
+  385  clear
+  386  ls
+  387  vi Ejercicio_02.sh
+  388  ./Ejercicio_02.sh
+  389  clesar
+  390  clear
+  391  ls
+  392  cd ..
+  393  cd Documentos/
+  394  ls
+  395  cd mauGit/
+  396  l
+  397  ls
+  398  cd diplo_embebidos_3/
+  399  ls
+  400  cd clasegunnartarde/
+  401  ls
+  402  history > nuevohistory.txt
+  403  git status
+  404  git add .
+  405  git commit -m Agregue todo lo que he visto
+  406  git commit -m "Agregue todo lo que he visto"
+  407  clear
+  408  git push
+  409  git status
+  410  cd Escritorio/
+  411  ls
+  412  ./Ejercicio_02.sh
+  413  cd Documentos
+  414  cd
+  415  cd Documentos/mauGit/
+  416  ls
+  417  cd diplo_embebidos_3/
+  418  clear
+  419  ls
+  420  git branch
+  421  git pull MibranchLocal 
+  422  git pull 
+  423  ls
+  424  git status
+  425  git commit -m "subiendo otro archivo"
+  426  git status
+  427  git add .
+  428  git status
+  429  git add -a
+  430  git add .
+  431  git status
+  432  git add 
+  433  help add
+  434  man add
+  435  man git add
+  436  man add -A
+  437  git add -A
+  438  git commit "Agregue todo"
+  439  git commit -m "Agregue todo"
+  440  git status
+  441  git commit -a
+  442  git status
+  443  clear
+  444  git status
+  445  man git add
+  446  ls
+  447  mv clasegunnartarde/ ../
+  448  ls
+  449  cd ..
+  450  cd clasegunnartarde/
+  451  git init
+  452  git puss
+  453  git push
+  454  git remote master add http//github/MauricioQJ25
+  455  git remote origin add http//github/MauricioQJ25
+  456  git remote add origin  http//github/MauricioQJ25
+  457  git push
+  458  git remote add origin  http//github.com/MauricioQJ25
+  459  git remote add rarito  http//github.com/MauricioQJ25
+  460  git push
+  461  git remote add rarito  http://github.com/MauricioQJ25
+  462  cd Documentos/
+  463  ls
+  464  cd mauGit/
+  465  la
+  466  ls
+  467  mv clasegunnartarde/ diplo_embebidos_3/
+  468  cd diplo_embebidos_3/
+  469  ls
+  470  git branch
+  471  git add -a
+  472  git add -A
+  473  git commit -m "Por fin lo subi"
+  474  git status
+  475  git commit -a
+  476  git add .
+  477  git status
+  478  git add *
+  479  git commit  -m "ya subi todddoo"
+  480  git add ***
+  481  dmesg
+  482  clear
+  483  dmesg
+  484  clear
+  485  dmesg
+  486  git add -all
+  487  git add --all
+  488  git commit -m "vamonos"
+  489  git commit -a
+  490  ls
+  491  git add clasegunnartarde/
+  492  git add clasegunnartarde/*
+  493  git status
+  494  clear
+  495  kvm
+  496  help kvm
+  497  qemu
+  498  su -c "yum install qemu" 
+  499  su
+  500  ls
+  501  cd Descargas/
+  502  ls
+  503  gunzip openwrt-15.05-x86-kvm_guest-combined-ext4.img.gz 
+  504  ls
+  505  qemu-system-x86 -drive index=0,file=openwrt-15.05-x86-kvm_guest-combined-ext4.img
+  506  qemu-system-x86_64 -drive index=0,file=openwrt-15.05-x86-kvm_guest-combined-ext4.img
+  507  qemu-system-x86_64 -drive index=1,file=openwrt-15.05-x86-kvm_guest-combined-ext4.img
+  508  qemu-system-x86_64 -drive ,file=openwrt-15.05-x86-kvm_guest-combined-ext4.img
+  509  qemu-system-x86_64 -drive file=openwrt-15.05-x86-kvm_guest-combined-ext4.img
+  510  qemu-system-x86_64 -drive index=0 file=openwrt-15.05-x86-kvm_guest-combined-ext4.img
+  511  qemu-system-x86_64 -drive index=0, file=openwrt-15.05-x86-kvm_guest-combined-ext4.img
+  512  qemu-system-x86_64 -drive ,file=openwrt-15.05-x86-kvm_guest-combined-ext4.img
+  513  qemu-system-x86_64 -drive file=openwrt-15.05-x86-kvm_guest-combined-ext4.img
+  514  cl
+  515  clear
+  516  qemu-system-x86_64 -drive ,file=openwrt-15.05-x86-kvm_guest-combined-ext4.img
+  517  cl
+  518  clear
+  519  qemu-system-x86_64 -drive ,file=openwrt-15.05-x86-kvm_guest-combined-ext4.img
+  520  qemu-system-x86_64 -drive file=openwrt-15.05-x86-kvm_guest-combined-ext4.img
+  521  ls
+  522  qemu-system-x86_64 -drive index=0,file=openwrt-15.05-x86-kvm_guest-combined-ext4.img
+  523  ls /usr/bin/qemu-*
+  524  qemu-system-x86_64 -drive index=0,file=openwrt-15.05-x86-kvm_guest-combined-ext4.img
+  525  ifconfig
+  526  qemu-system-x86_64 -drive index=0,file=openwrt-15.05-x86-kvm_guest-combined-ext4.img
+  527  ls
+  528  qemu-system-x86_64 -drive index=0,file=openwrt-15.05-x86-kvm_guest-combined-ext4.img
+  529  qemu-system-x86_64 enable_kvm -drive index=0,file=openwrt-15.05-x86-kvm_guest-combined-ext4.img
+  530  qemu-system-x86_64 enable-kvm -drive index=0,file=openwrt-15.05-x86-kvm_guest-combined-ext4.img
+  531  cl
+  532  qemu-system-x86_64 -drive index=0,file=openwrt-15.05-x86-kvm_guest-combined-ext4.img
+  533  cd
+  534  cd -
+  535  qemu-system-x86_64 -drive index=0,file=openwrt-15.05-x86-kvm_guest-combined-ext4.img
+  536  man qemu-system-x86_64
+  537  man kvm
+  538  man qemu
+  539  qemu-system-x86_64 -drive index=0,file=openwrt-15.05-x86-kvm_guest-combined-ext4.img -curses
+  540  qemu-system-x86 -drive index=0,file=openwrt-15.05.1-x86-kvm_guest-combined-ext4.img -drive index=1,file=/tmp/archivo.img
+  541  qemu-system-x86_64 -drive index=0,file=openwrt-15.05.1-x86-kvm_guest-combined-ext4.img -drive index=1,file=/tmp/archivo.img
+  542  qemu-system-x86_64 -drive index=0,file=openwrt-15.05.1-x86-kvm_guest-combined-ext4.img -drive index=1,file=/tmp/archivo.img -courses
+  543  qemu-system-x86_64 -drive index=0,file=openwrt-15.05.1-x86-kvm_guest-combined-ext4.img -drive index=1,file=/tmp/archivo.img 
+  544  ls
+  545  qemu-system-x86_64 -drive index=0,file=openwrt-15.05-x86-kvm_guest-combined-ext4.img -drive index=1,file=/tmp/archivo.img 
+  546  qemu-system-x86_64 -drive index=0,file=openwrt-15.05-x86-kvm_guest-combined-ext4.img -drive index=1,file=/tmp/archivo.img -courses
+  547  qemu-system-x86_64 -drive index=0,file=openwrt-15.05-x86-kvm_guest-combined-ext4.img -drive index=1,file=/tmp/archivo.img -curses
+  548  clear
+  549  ls
+  550  qemu-system-x86_64 -drive index=0,file=openwrt-15.05-x86-kvm_guest-combined-ext4.img -drive index=1,file=/tmp/archivo.img -curses
+  551  cp openwrt-15.05-x86-kvm_guest-combined-ext4.img  openwrt_mauricio_quijada.img
+  552  gzip openwrt_mauricio_quijada.img 
+  553  ls
+  554  cp openwrt_mauricio_quijada.img.gz ~/Documentos/mauGit/diplo_embebidos_3/practicas/09.09/Mau_EjercicioMake/
+  555  cd ..
+  556  cd Documentos/mauGit/diplo_embebidos_3/practicas/09.09/Mau_EjercicioMake/
+  557  ls
+  558  git status
+  559  git add .
+  560  git commit -m "ADD openwrt_mauricio_quijada.img.gz"
+  561  git status
+  562  git clear
+  563  git status
+  564  clear
+  565  git status
+  566  cd ..
+  567  git status
+  568  clear
+  569  qemu-system-x86_64 -drive index=0,file=openwrt-15.05-x86-kvm_guest-combined-ext4.img -drive index=1,file=/tmp/archivo.img -curses
+  570  cd ..
+  571  cd 
+  572  cd Descargas/
+  573  qemu-system-x86_64 -drive index=0,file=openwrt-15.05-x86-kvm_guest-combined-ext4.img -drive index=1,file=/tmp/archivo.img -curses -net
+  574  qemu-system-x86_64 -drive index=0,file=openwrt-15.05-x86-kvm_guest-combined-ext4.img -drive index=1,file=/tmp/archivo.img -curses -net nic,model=e1000,id=eth0
+  575  cat proc/partitions
+  576  cat /proc/partitions 
+  577  mount /dev/zero
+  578  dd if=/dev/zero of=/tmp/archivo.img bs=1024 count=1024
+  579  /sbin/mkfs.ext2 /tmp/archivo.img
+  580  su
+  581  su -s
+  582  su -h
+  583  su
+  584  mount /tmp/archivo.img /mnt
+  585  su
+  586  sudo mount /tmp/archivo.img /mnt
+  587  sudo cp kmod_e1000_3.18.24-1_x86.ipk /mnt
+  588  ls
+  589  sudo cp kmod_e1000_3.18.20-1_x86.ipk /mnt
+  590  sudo cp kmod-e1000_3.18.20-1_x86.ipk /mnt
+  591  umount /mnt
+  592  sudo umount /mnt
+  593  cd ..
+  594  git clone https://github.com/MauricioQJ25/diplo_embebidos_3.git
+  595  cd diplo_embebidos_3/
+  596  git status
+  597  git add .
+  598  git commit -a
+  599  clear
+  600  ls
+  601  git status
+  602  git push origin master
+  603  cd practicas/09.09/
+  604  ls
+  605  cd Mau_EjercicioMake/
+  606  ls
+  607  git status
+  608  git add .
+  609  git commit -m 
+  610  git status
+  611  git commit -m "Agregando openwrt_mauricio_quijada.img.gz"
+  612  git status
+  613  git push origin master
+  614  man qemu
+  615  man qemu-system
+  616  man qemu
+  617  ls
+  618  cd ..
+  619  ls
+  620  cd ..
+  621  ls
+  622  cd ..
+  623  ls
+  624  cd  ..
+  625  ls
+  626  cd diplo_embebidos_3/
+  627  ls
+  628  cl
+  629  ls
+  630  git remote add upstream https://github.com/gwolf/diplo_embebidos_3.git
+  631  ls
+  632  git fetch upstream
+  633  git merge upstream/master 
+  634  ls
+  635  l
+  636  clear
+  637  ls
+  638  cd ejemplos_en_clase/
+  639  ls
+  640  cd ..
+  641  cd practicas/
+  642  ls
+  643  cd 09.23
+  644  ls
+  645  cd ..
+  646  ls
+  647  cd 09.09
+  648  ls
+  649  cd Mau_EjercicioMake/
+  650  ls
+  651  mv openwrt_mauricio_quijada.img.gz ../../09.23/
+  652  ls
+  653  cd ..
+  654  ls
+  655  cd 09.23/
+  656  ls
+  657  git status
+  658  git add .
+  659  git commit -m "Agregando mi openwrt_mauricio.img.gz"
+  660  git status
+  661  git add 
+  662  git add .
+  663  git status
+  664  git commit -a
+  665  git status
+  666  git commit -a
+  667  git status
+  668  clear
+  669  git status
+  670  git push origin master 
+  671  clear
+  672  ls
+  673  clear
+  674  cleasr
+  675  clear
+  676  ls
+  677  cd ..
+  678  ls
+  679  clear
+  680  ls
+  681  cd ..
+  682  ls
+  683  cd diplomado4/
+  684  ls
+  685  cd diplo_embebidos_3/
+  686  ls
+  687  cd tareas
+  688  ls
+  689  cd ..
+  690  ls
+  691  clear
+  692  ls
+  693  clear
+  694  ls
+  695  cd diplo_embebidos_3/
+  696  ls
+  697  clesar
+  698  clear
+  699  ls
+  700  clear
+  701  ls
+  702  cd ejemplos_en_clase/
+  703  ls
+  704  cd paquete_debian-02/
+  705  l
+  706  ls
+  707  cd ..
+  708  ls
+  709  clear
+  710  ls
+  711  cd ..
+  712  ls
+  713  cd practicas/
+  714  ls
+  715  cd ..
+  716  ls
+  717  cd practicas/
+  718  ls
+  719  cd 09.23
+  720  ls
+  721  clear
+  722  ls
+  723  cd ..
+  724  ls
+  725  cd ..
+  726  ls
+  727  cd ..
+  728  ls
+  729  clesar
+  730  clear
+  731  ls
+  732  cd /
+  733  ls
+  734  cd bin
+  735  ls
+  736  cd ..
+  737  ls
+  738  cd etc
+  739  ls
+  740  cd cups
+  741  ls
+  742  ñs
+  743  ls
+  744  clear
+  745  l
+  746  ls
+  747  l
+  748  cd ..
+  749  ls
+  750  ls pam
+  751  ls pam.com
+  752  clear
+  753  ls
+  754  cd pam.d
+  755  ls
+  756  cd ..
+  757  ls
+  758  ls *.d
+  759  ls
+  760  ls *.d
+  761  ls
+  762  cd depmod.d
+  763  ls
+  764  ls -la
+  765  cd ..
+  766  ls
+  767  clesar
+  768  clear
+  769  ls
+  770  clear
+  771  ls
+  772  cd udev
+  773  ls
+  774  cat udev.conf 
+  775  cat hwdb.bin 
+  776  clear
+  777  ls
+  778  cat udev.conf 
+  779  ls
+  780  cat rules.d/
+  781  cd rules.d/
+  782  ls
+  783  cat 60-sysprof.rules 
+  784  cat 98-kexec.rules 
+  785  ls
+  786  ls -l
+  787  cd /
+  788  ls
+  789  ls -l /sys/block/
+  790  ls -lR /sys/block/
+  791  cleasr
+  792  clear
+  793  ls -lR /sys/block/
+  794  ls -lR /dev/disk
+  795  clear
+  796  ls -lR /dev/disk
+  797  ls
+  798  cd ..
+  799  ls
+  800  cd
+  801  ls
+  802  cd diplo_embebidos_3/
+  803  ls
+  804  history | tempmau.txt
+  805  history | tempmau
+  806  history > tempmau.txt
+  807  cat tempmau.txt 
+  808  clear
+  809  ls
+  810  git add tempmau.txt
+  811  git commit -m "subiendo tempmau.txt"
+  812  ls
+  813  git status
+  814  git push origin master
+  815  clear
+  816  git branch
+  817  git checkout -b mau
+  818  git status
+  819  git push origin mau
+  820  clear
+  821  git checkout master
+  822  ls
+  823  cd diplo_embebidos_3/
+  824  ls
+  825  cd practicas/
+  826  ls
+  827  cd 09
+  828  cd 09.23/
+  829  ls
+  830  git branch
+  831  git checkout mau
+  832  ls
+  833  cd ..
+  834  ls
+  835  cd 09.09/
+  836  ls
+  837  cd Mau_EjercicioMake
+  838  ls
+  839  vi Makefilenew
+  840  cl
+  841  clear
+  842  ls
+  843  clear
+  844  ls
+  845  cat Makefilenew 
+  846  man rm
+  847  man tar
+  848  -
+  849  vi Makefilenew 
+  850  cat Makefilenew 
+  851  ls
+  852  clear
+  853  ls
+  854  cat Makefile
+  855  clear
+  856  cat Makefilenew 
+  857  vi control
+  858  python
+  859  vi holamundo.py
+  860  python holamundo.py 
+  861  clear
+  862  ls
+  863  make Makefilenew
+  864  mv Makefile Makefile1
+  865  ls
+  866  mv Makefilenew Makefile
+  867  ls
+  868  make
+  869  vi Makefile
+  870  make
+  871  ls
+  872  mv holamundo.py holamundo.p
+  873  make
+  874  ls
+  875  git branch
+  876  git add .
+  877  git commmit -m "ejercicio gunar clase de Makefile my thing python"
+  878  git commit -m "ejercicio gunar clase de Makefile my thing python"
+  879  git status
+  880  git checkout master 
+  881  git status
+  882  clear
+  883  git fetch upstream 
+  884  git merge upstream/master 
+  885  ls
+  886  cd ..
+  887  ls
+  888  cd ..
+  889  ls
+  890  rm tempmau.txt 
+  891  git status
+  892  git rm tempmau.txt
+  893  git commit -m "borrando tempmau.txt"
+  894  ls
+  895  git status
+  896  git puch origin master
+  897  git push origin master
+  898  ls
+  899  clear
+  900  git status
+  901  git checkout mau
+  902  ls
+  903  git status
+  904  clear
+  905  history | grep qemu
+  906  cd 
+  907  ls
+  908  cd Descargas/
+  909  qemu-system-x86_64 -drive index=0,file=openwrt-15.05-x86-kvm_guest-combined-ext4.img -drive index=1,file=/tmp/archivo.img -curses -net nic,model=e1000,id=eth0
+  910  ls
+  911  qemu-system-x86_64 -drive index=0,file=openwrt-15.05-x86-kvm_guest-combined-ext4.img -drive index=1,file=/tmp/archivo.img -curses -net nic,model=e1000,id=eth0
+  912   qemu-system-x86_64 -drive index=0,file=openwrt-15.05-x86-kvm_guest-combined-ext4.img -curses
+  913  histori
+  914  history
+  915  cd 3684
+  916  less map
+  917  cd /
+  918  cd proc/
+  919  ls
+  920  less iomem
+  921  bmbmmbmbmbbmbmmbmbmbmbmbbmbmmbbmbmbmbmbmbmbmbmbmbmbm m mm m m  m mmm m m m  mm mm mm m m 
+  922  clear
+  923  cd irq/
+  924  cat */smp_affinity
+  925  su cat */smp_affinity
+  926  sudo cat */smp_affinityAAABBBBBBBAAACCCCDDDDCDCDCDCADCBD
+  927  AABBB
+  928  AAAABBBBBAAA
+  929  ps
+  930  man init
+  931  cd /sbin/
+  932  ls
+  933  cd init
+  934  cat init
+  935  cl
+  936  ls
+  937  init
+  938  ls
+  939  grep init
+  940  grep init -f
+  941  grep -f init 
+  942  cd /etc/rc.d/
+  943  ls
+  944  cd rc0.d/
+  945  ls
+  946  ls -la
+  947  cd ../rc.06
+  948  cd ..
+  949  ls
+  950  cd rc6.d/
+  951  ls
+  952  ls -la
+  953  pwd
+  954  ls -la
+  955  ls
+  956  clear
+  957  cl
+  958  ls
+  959  cd /etc/
+  960  ls
+  961  cd rc.d
+  962  ls
+  963  cl
+  964  clear
+  965  ls
+  966  cd rc3.d
+  967  ls
+  968  ls -la
+  969  cd ..
+  970  cat inittab
+  971  cd init
+  972  ls
+  973  cd..
+  974  cd ..
+  975  less inittab
+  976  cd runlevels
+  977  cl
+  978  grep runlevels
+  979  cd init.d/
+  980  ls
+  981  cat README 
+  982  cd /sys/fs/cgroup/
+  983  ls
+  984  ls -ls
+  985  ls
+  986  pwd
+  987  ls -la
+  988  cd systemd/
+  989  ls
+  990  cat task
+  991  cat tasks
+  992  ls
+  993  cd ..
+  994  ls
+  995  cd systemd/
+  996  ls
+  997  cd user/
+  998  ls
+  999  cd ..
+ 1000  ls
+ 1001  cd buildroot
+ 1002  ls
+ 1003  git
+ 1004  git status
+ 1005  ls
+ 1006  cl
+ 1007  clear
+ 1008  cd ..
+ 1009  ls
+ 1010  cd buildroot-2016.08.1/
+ 1011  ls
+ 1012  make menuconfig
+ 1013  make
+ 1014  ls
+ 1015  cd ..
+ 1016  ls
+ 1017  cd diplo_embebidos_3/
+ 1018  ls
+ 1019  cd practicas/
+ 1020  ls
+ 1021  cd ..
+ 1022  ls
+ 1023  git status
+ 1024  history > comandossab_1/10/2016
+ 1025  history > comandossab_1/10/2016.txt
+ 1026  history > comandossab1.10.2016.txt
