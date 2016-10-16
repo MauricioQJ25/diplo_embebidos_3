@@ -1,22 +1,16 @@
-# makefile para calculadora polaca, versión 2
-# uso de variables
-# usar tabulador (no espacios) en la línea de comando
+all: my-thing-python.ipk
 
-CC = gcc
-OBJECTS = stack.o getop.o getch.o
+my-thing-python.ipk:
+	rm -rf ipk
+	mkdir -p ipk/opt/my-thing-python
+	cp *.p ipk/opt/my-thing.python
+	tar czvf control.tar.gz control	
+	cd ipk; tar czvf ../data.tar.gz .; cd ..
+	echo 2.0 > debian-binary
+	ar r my-thing-python.ipk control.tar.gz data.tar.gz debian-binary
 
-polaca : main.o $(OBJECTS)
-	$(CC) -o calculadora_pila main.o $(OBJECTS)
-main.o: main.c calc.h
-	$(CC) -c main.c
-stack.o: stack.c calc.h
-	$(CC) -c stack.c
-getop.o: getop.c calc.h
-	$(CC) -c getop.c
-getch.o: getch.c
-	$(CC) -c getch.c
-	top.o getch.o
-
-clean:
-	rm calculadora_pila \
-	main.o stack.o getop.o getch.o 
+clean: FORCE
+	rm -rf ipk
+	rm -f control.tar.gz
+	rm -f data.tar.gz
+	rm -f my-thing-python.ipk
